@@ -108,8 +108,10 @@ li {
   background-color: coral;
   height: 10px;
   width: 800px;
-  margin: 10px;
-  float: none;
+}
+
+.grid-blocks {
+  height: 120px;
 }
 
 a:hover {
