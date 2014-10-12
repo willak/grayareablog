@@ -96,10 +96,32 @@ li {
   font-weight: bold;
 }
 
-.color-block {
-  background-color: red;
-  width: 100px;
-  height: 100px;
+.color-block1 {
+  background-color: darkslateblue;
+  width: 47px;
+  height: 47px;
+  float: left;
+  margin: 3px;
+}
+.color-block2 {
+  background-color: darkviolet;
+  width: 47px;
+  height: 47px;
+  float: left;
+  margin: 3px;
+}
+.color-block3 {
+  background-color: magenta;
+  width: 47px;
+  height: 22px;
+  float: left;
+  margin: 3px;
+}
+
+.color-block4 {
+  background-color: mediumslateblue;
+  width: 22px;
+  height: 22px;
   float: left;
   margin: 3px;
 }
@@ -107,7 +129,7 @@ li {
 .long-break {
   background-color: coral;
   height: 10px;
-  width: 800px;
+  width: 735px;
 }
 
 .grid-blocks {
