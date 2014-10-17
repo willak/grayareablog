@@ -1,0 +1,117 @@
+
+/* Style the specific HTML elements by following the directions. Do so by using CLASSES, IDs, or any of the learned SELECTORS. The first one is done for you. */
+
+
+/* Give the <body> element a WIDTH and a background color */
+
+body {
+  width: 900px;
+  background-color: cornflowerblue;
+  margin: 0 auto;
+  font-family: helvetica;
+  color: white;
+  padding: 50px;
+
+}
+
+a {
+	color: violet;
+}
+
+/* Give the <h1> element a SIZE and COLOR */
+h1{
+  font-size: 70px;
+  color: darkviolet;
+  font-family: garamond;
+  padding: 30px;
+  margin: 20px;
+
+}
+
+/* Give all <h2> elements a SIZE and COLOR */
+
+h2{
+  font-size: 20px;
+  color: purple;
+  font-family: helvetica;
+}
+
+/* Give the paragraph with the class 'blah' a yellow border */
+
+p.blah {
+  border: 4px dotted yellow;
+}
+
+.btn-primary{
+  background-color: red;
+  border: yellow;
+}
+
+h4 {
+	color: grey;
+	font-seize: 18px;
+
+}
+
+.breaker {
+  color: orange;
+  text-align: center;
+  font-size: 26px;
+
+}
+
+h3 {
+  font-size: 10px;
+}
+
+h3.special {
+	text-align: center;
+	background: seashell;
+	font-size: 30px;
+	color: darkviolet;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Give the paragraph with the id 'whatever' a background color */
+
+#whatever {
+  background-color: magenta;
+}
+
+#title {
+  text-align: center;
+  background: coral;
+  font-weight: bold;
+  color: blue;
+  border: 3px magenta dashed;
+  padding: 30px;
+  font-size: 50px;
+  font-family: garamond;
+}
+
+li {
+  color: navy;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.color-block {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 3px;
+}
+
+.long-break {
+  background-color: coral;
+  height: 10px;
+  width: 800px;
+  margin: 10px;
+  float: none;
+}
+
+a:hover {
+ font-size: 150%;
+}
