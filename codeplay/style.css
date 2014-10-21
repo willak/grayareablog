@@ -1,0 +1,1583 @@
+
+/* Style the specific HTML elements by following the directions. Do so by using CLASSES, IDs, or any of the learned SELECTORS. The first one is done for you. */
+
+
+/* Give the <body> element a WIDTH and a background color */
+
+body {
+  width: 900px;
+  background-color: cornflowerblue;
+  margin: 0 auto;
+  font-family: helvetica;
+  color: white;
+  padding: 50px;
+
+}
+
+body2 {
+  background-color: cornflowerblue;
+}
+
+a {
+	color: violet;
+}
+
+/* Give the <h1> element a SIZE and COLOR */
+h1{
+  font-size: 70px;
+  color: darkviolet;
+  font-family: garamond;
+  padding: 30px;
+  margin: 20px;
+
+}
+
+/* Give all <h2> elements a SIZE and COLOR */
+
+h2{
+  font-size: 20px;
+  color: purple;
+  font-family: helvetica;
+}
+
+/* Give the paragraph with the class 'blah' a yellow border */
+
+p.blah {
+  border: 4px dotted yellow;
+}
+
+.btn-primary{
+  background-color: red;
+  border: yellow;
+}
+
+h4 {
+	color: grey;
+	font-seize: 18px;
+
+}
+
+.breaker {
+  color: orange;
+  text-align: center;
+  font-size: 26px;
+
+}
+
+h3 {
+  font-size: 10px;
+}
+
+h3.special {
+	text-align: center;
+	background: seashell;
+	font-size: 30px;
+	color: darkviolet;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Give the paragraph with the id 'whatever' a background color */
+
+#whatever {
+  background-color: magenta;
+}
+
+#title {
+  text-align: center;
+  background: coral;
+  font-weight: bold;
+  color: blue;
+  border: 3px magenta dashed;
+  padding: 30px;
+  font-size: 50px;
+  font-family: garamond;
+}
+
+li {
+  color: navy;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.color-block1 {
+  background-color: darkslateblue;
+  width: 47px;
+  height: 47px;
+  float: left;
+  margin: 3px;
+}
+.color-block2 {
+  background-color: darkviolet;
+  width: 47px;
+  height: 47px;
+  float: left;
+  margin: 3px;
+}
+.color-block3 {
+  background-color: magenta;
+  width: 47px;
+  height: 22px;
+  float: left;
+  margin: 3px;
+}
+
+.color-block4 {
+  background-color: mediumslateblue;
+  width: 22px;
+  height: 22px;
+  float: left;
+  margin: 3px;
+}
+.color-block5 {
+  background-color: mediumorchid;
+  width: 17px;
+  height: 22px;
+  float: left;
+  margin: 2px;
+}
+.color-block6 {
+  background-color: plum;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 2px;
+}
+
+.long-break {
+  background-color: coral;
+  height: 10px;
+  width: 735px;
+}
+
+.grid-blocks {
+  height: 120px;
+}
+div .color-block6:nth-of-type(2){ 
+  background-color: yellow;
+}
+
+a:hover {
+ font-size: 150%;
+}
+/* from codepen */
+
+.cont {
+  position: relative;
+  height: 200px;
+}
+
+.blip {
+  display: inline-block;
+  background-color: #FF4136;
+  width: 10px;
+  position: absolute;
+  bottom: 0;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  transition: all 100ms ease-out;
+}
+
+.blip:nth-child(1) {
+  height: 2px;
+  left: 10px;
+  animation-name: blip1;
+  animation-delay: 20ms;
+}
+
+@keyframes blip1 {
+  100% {
+    height: 198px;
+    transform: rotateX(1.8deg) rotateY(2deg) rotateZ(0.9deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(2) {
+  height: 4px;
+  left: 20px;
+  animation-name: blip2;
+  animation-delay: 40ms;
+}
+
+@keyframes blip2 {
+  100% {
+    height: 196px;
+    transform: rotateX(3.6deg) rotateY(4deg) rotateZ(1.8deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(3) {
+  height: 6px;
+  left: 30px;
+  animation-name: blip3;
+  animation-delay: 60ms;
+}
+
+@keyframes blip3 {
+  100% {
+    height: 194px;
+    transform: rotateX(5.4deg) rotateY(6deg) rotateZ(2.7deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(4) {
+  height: 8px;
+  left: 40px;
+  animation-name: blip4;
+  animation-delay: 80ms;
+}
+
+@keyframes blip4 {
+  100% {
+    height: 192px;
+    transform: rotateX(7.2deg) rotateY(8deg) rotateZ(3.6deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(5) {
+  height: 10px;
+  left: 50px;
+  animation-name: blip5;
+  animation-delay: 100ms;
+}
+
+@keyframes blip5 {
+  100% {
+    height: 190px;
+    transform: rotateX(9deg) rotateY(10deg) rotateZ(4.5deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(6) {
+  height: 12px;
+  left: 60px;
+  animation-name: blip6;
+  animation-delay: 120ms;
+}
+
+@keyframes blip6 {
+  100% {
+    height: 188px;
+    transform: rotateX(10.8deg) rotateY(12deg) rotateZ(5.4deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(7) {
+  height: 14px;
+  left: 70px;
+  animation-name: blip7;
+  animation-delay: 140ms;
+}
+
+@keyframes blip7 {
+  100% {
+    height: 186px;
+    transform: rotateX(12.6deg) rotateY(14deg) rotateZ(6.3deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(8) {
+  height: 16px;
+  left: 80px;
+  animation-name: blip8;
+  animation-delay: 160ms;
+}
+
+@keyframes blip8 {
+  100% {
+    height: 184px;
+    transform: rotateX(14.4deg) rotateY(16deg) rotateZ(7.2deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(9) {
+  height: 18px;
+  left: 90px;
+  animation-name: blip9;
+  animation-delay: 180ms;
+}
+
+@keyframes blip9 {
+  100% {
+    height: 182px;
+    transform: rotateX(16.2deg) rotateY(18deg) rotateZ(8.1deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(10) {
+  height: 20px;
+  left: 100px;
+  animation-name: blip10;
+  animation-delay: 200ms;
+}
+
+@keyframes blip10 {
+  100% {
+    height: 180px;
+    transform: rotateX(18deg) rotateY(20deg) rotateZ(9deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(11) {
+  height: 22px;
+  left: 110px;
+  animation-name: blip11;
+  animation-delay: 220ms;
+}
+
+@keyframes blip11 {
+  100% {
+    height: 178px;
+    transform: rotateX(19.8deg) rotateY(22deg) rotateZ(9.9deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(12) {
+  height: 24px;
+  left: 120px;
+  animation-name: blip12;
+  animation-delay: 240ms;
+}
+
+@keyframes blip12 {
+  100% {
+    height: 176px;
+    transform: rotateX(21.6deg) rotateY(24deg) rotateZ(10.8deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(13) {
+  height: 26px;
+  left: 130px;
+  animation-name: blip13;
+  animation-delay: 260ms;
+}
+
+@keyframes blip13 {
+  100% {
+    height: 174px;
+    transform: rotateX(23.4deg) rotateY(26deg) rotateZ(11.7deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(14) {
+  height: 28px;
+  left: 140px;
+  animation-name: blip14;
+  animation-delay: 280ms;
+}
+
+@keyframes blip14 {
+  100% {
+    height: 172px;
+    transform: rotateX(25.2deg) rotateY(28deg) rotateZ(12.6deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(15) {
+  height: 30px;
+  left: 150px;
+  animation-name: blip15;
+  animation-delay: 300ms;
+}
+
+@keyframes blip15 {
+  100% {
+    height: 170px;
+    transform: rotateX(27deg) rotateY(30deg) rotateZ(13.5deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(16) {
+  height: 32px;
+  left: 160px;
+  animation-name: blip16;
+  animation-delay: 320ms;
+}
+
+@keyframes blip16 {
+  100% {
+    height: 168px;
+    transform: rotateX(28.8deg) rotateY(32deg) rotateZ(14.4deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(17) {
+  height: 34px;
+  left: 170px;
+  animation-name: blip17;
+  animation-delay: 340ms;
+}
+
+@keyframes blip17 {
+  100% {
+    height: 166px;
+    transform: rotateX(30.6deg) rotateY(34deg) rotateZ(15.3deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(18) {
+  height: 36px;
+  left: 180px;
+  animation-name: blip18;
+  animation-delay: 360ms;
+}
+
+@keyframes blip18 {
+  100% {
+    height: 164px;
+    transform: rotateX(32.4deg) rotateY(36deg) rotateZ(16.2deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(19) {
+  height: 38px;
+  left: 190px;
+  animation-name: blip19;
+  animation-delay: 380ms;
+}
+
+@keyframes blip19 {
+  100% {
+    height: 162px;
+    transform: rotateX(34.2deg) rotateY(38deg) rotateZ(17.1deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(20) {
+  height: 40px;
+  left: 200px;
+  animation-name: blip20;
+  animation-delay: 400ms;
+}
+
+@keyframes blip20 {
+  100% {
+    height: 160px;
+    transform: rotateX(36deg) rotateY(40deg) rotateZ(18deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(21) {
+  height: 42px;
+  left: 210px;
+  animation-name: blip21;
+  animation-delay: 420ms;
+}
+
+@keyframes blip21 {
+  100% {
+    height: 158px;
+    transform: rotateX(37.8deg) rotateY(42deg) rotateZ(18.9deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(22) {
+  height: 44px;
+  left: 220px;
+  animation-name: blip22;
+  animation-delay: 440ms;
+}
+
+@keyframes blip22 {
+  100% {
+    height: 156px;
+    transform: rotateX(39.6deg) rotateY(44deg) rotateZ(19.8deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(23) {
+  height: 46px;
+  left: 230px;
+  animation-name: blip23;
+  animation-delay: 460ms;
+}
+
+@keyframes blip23 {
+  100% {
+    height: 154px;
+    transform: rotateX(41.4deg) rotateY(46deg) rotateZ(20.7deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(24) {
+  height: 48px;
+  left: 240px;
+  animation-name: blip24;
+  animation-delay: 480ms;
+}
+
+@keyframes blip24 {
+  100% {
+    height: 152px;
+    transform: rotateX(43.2deg) rotateY(48deg) rotateZ(21.6deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(25) {
+  height: 50px;
+  left: 250px;
+  animation-name: blip25;
+  animation-delay: 500ms;
+}
+
+@keyframes blip25 {
+  100% {
+    height: 150px;
+    transform: rotateX(45deg) rotateY(50deg) rotateZ(22.5deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(26) {
+  height: 52px;
+  left: 260px;
+  animation-name: blip26;
+  animation-delay: 520ms;
+}
+
+@keyframes blip26 {
+  100% {
+    height: 148px;
+    transform: rotateX(46.8deg) rotateY(52deg) rotateZ(23.4deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(27) {
+  height: 54px;
+  left: 270px;
+  animation-name: blip27;
+  animation-delay: 540ms;
+}
+
+@keyframes blip27 {
+  100% {
+    height: 146px;
+    transform: rotateX(48.6deg) rotateY(54deg) rotateZ(24.3deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(28) {
+  height: 56px;
+  left: 280px;
+  animation-name: blip28;
+  animation-delay: 560ms;
+}
+
+@keyframes blip28 {
+  100% {
+    height: 144px;
+    transform: rotateX(50.4deg) rotateY(56deg) rotateZ(25.2deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(29) {
+  height: 58px;
+  left: 290px;
+  animation-name: blip29;
+  animation-delay: 580ms;
+}
+
+@keyframes blip29 {
+  100% {
+    height: 142px;
+    transform: rotateX(52.2deg) rotateY(58deg) rotateZ(26.1deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(30) {
+  height: 60px;
+  left: 300px;
+  animation-name: blip30;
+  animation-delay: 600ms;
+}
+
+@keyframes blip30 {
+  100% {
+    height: 140px;
+    transform: rotateX(54deg) rotateY(60deg) rotateZ(27deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(31) {
+  height: 62px;
+  left: 310px;
+  animation-name: blip31;
+  animation-delay: 620ms;
+}
+
+@keyframes blip31 {
+  100% {
+    height: 138px;
+    transform: rotateX(55.8deg) rotateY(62deg) rotateZ(27.9deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(32) {
+  height: 64px;
+  left: 320px;
+  animation-name: blip32;
+  animation-delay: 640ms;
+}
+
+@keyframes blip32 {
+  100% {
+    height: 136px;
+    transform: rotateX(57.6deg) rotateY(64deg) rotateZ(28.8deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(33) {
+  height: 66px;
+  left: 330px;
+  animation-name: blip33;
+  animation-delay: 660ms;
+}
+
+@keyframes blip33 {
+  100% {
+    height: 134px;
+    transform: rotateX(59.4deg) rotateY(66deg) rotateZ(29.7deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(34) {
+  height: 68px;
+  left: 340px;
+  animation-name: blip34;
+  animation-delay: 680ms;
+}
+
+@keyframes blip34 {
+  100% {
+    height: 132px;
+    transform: rotateX(61.2deg) rotateY(68deg) rotateZ(30.6deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(35) {
+  height: 70px;
+  left: 350px;
+  animation-name: blip35;
+  animation-delay: 700ms;
+}
+
+@keyframes blip35 {
+  100% {
+    height: 130px;
+    transform: rotateX(63deg) rotateY(70deg) rotateZ(31.5deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(36) {
+  height: 72px;
+  left: 360px;
+  animation-name: blip36;
+  animation-delay: 720ms;
+}
+
+@keyframes blip36 {
+  100% {
+    height: 128px;
+    transform: rotateX(64.8deg) rotateY(72deg) rotateZ(32.4deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(37) {
+  height: 74px;
+  left: 370px;
+  animation-name: blip37;
+  animation-delay: 740ms;
+}
+
+@keyframes blip37 {
+  100% {
+    height: 126px;
+    transform: rotateX(66.6deg) rotateY(74deg) rotateZ(33.3deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(38) {
+  height: 76px;
+  left: 380px;
+  animation-name: blip38;
+  animation-delay: 760ms;
+}
+
+@keyframes blip38 {
+  100% {
+    height: 124px;
+    transform: rotateX(68.4deg) rotateY(76deg) rotateZ(34.2deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(39) {
+  height: 78px;
+  left: 390px;
+  animation-name: blip39;
+  animation-delay: 780ms;
+}
+
+@keyframes blip39 {
+  100% {
+    height: 122px;
+    transform: rotateX(70.2deg) rotateY(78deg) rotateZ(35.1deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(40) {
+  height: 80px;
+  left: 400px;
+  animation-name: blip40;
+  animation-delay: 800ms;
+}
+
+@keyframes blip40 {
+  100% {
+    height: 120px;
+    transform: rotateX(72deg) rotateY(80deg) rotateZ(36deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(41) {
+  height: 82px;
+  left: 410px;
+  animation-name: blip41;
+  animation-delay: 820ms;
+}
+
+@keyframes blip41 {
+  100% {
+    height: 118px;
+    transform: rotateX(73.8deg) rotateY(82deg) rotateZ(36.9deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(42) {
+  height: 84px;
+  left: 420px;
+  animation-name: blip42;
+  animation-delay: 840ms;
+}
+
+@keyframes blip42 {
+  100% {
+    height: 116px;
+    transform: rotateX(75.6deg) rotateY(84deg) rotateZ(37.8deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(43) {
+  height: 86px;
+  left: 430px;
+  animation-name: blip43;
+  animation-delay: 860ms;
+}
+
+@keyframes blip43 {
+  100% {
+    height: 114px;
+    transform: rotateX(77.4deg) rotateY(86deg) rotateZ(38.7deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(44) {
+  height: 88px;
+  left: 440px;
+  animation-name: blip44;
+  animation-delay: 880ms;
+}
+
+@keyframes blip44 {
+  100% {
+    height: 112px;
+    transform: rotateX(79.2deg) rotateY(88deg) rotateZ(39.6deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(45) {
+  height: 90px;
+  left: 450px;
+  animation-name: blip45;
+  animation-delay: 900ms;
+}
+
+@keyframes blip45 {
+  100% {
+    height: 110px;
+    transform: rotateX(81deg) rotateY(90deg) rotateZ(40.5deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(46) {
+  height: 92px;
+  left: 460px;
+  animation-name: blip46;
+  animation-delay: 920ms;
+}
+
+@keyframes blip46 {
+  100% {
+    height: 108px;
+    transform: rotateX(82.8deg) rotateY(92deg) rotateZ(41.4deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(47) {
+  height: 94px;
+  left: 470px;
+  animation-name: blip47;
+  animation-delay: 940ms;
+}
+
+@keyframes blip47 {
+  100% {
+    height: 106px;
+    transform: rotateX(84.6deg) rotateY(94deg) rotateZ(42.3deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(48) {
+  height: 96px;
+  left: 480px;
+  animation-name: blip48;
+  animation-delay: 960ms;
+}
+
+@keyframes blip48 {
+  100% {
+    height: 104px;
+    transform: rotateX(86.4deg) rotateY(96deg) rotateZ(43.2deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(49) {
+  height: 98px;
+  left: 490px;
+  animation-name: blip49;
+  animation-delay: 980ms;
+}
+
+@keyframes blip49 {
+  100% {
+    height: 102px;
+    transform: rotateX(88.2deg) rotateY(98deg) rotateZ(44.1deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(50) {
+  height: 100px;
+  left: 500px;
+  animation-name: blip50;
+  animation-delay: 1000ms;
+}
+
+@keyframes blip50 {
+  100% {
+    height: 100px;
+    transform: rotateX(90deg) rotateY(100deg) rotateZ(45deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(51) {
+  height: 102px;
+  left: 510px;
+  animation-name: blip51;
+  animation-delay: 1020ms;
+}
+
+@keyframes blip51 {
+  100% {
+    height: 98px;
+    transform: rotateX(91.8deg) rotateY(102deg) rotateZ(45.9deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(52) {
+  height: 104px;
+  left: 520px;
+  animation-name: blip52;
+  animation-delay: 1040ms;
+}
+
+@keyframes blip52 {
+  100% {
+    height: 96px;
+    transform: rotateX(93.6deg) rotateY(104deg) rotateZ(46.8deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(53) {
+  height: 106px;
+  left: 530px;
+  animation-name: blip53;
+  animation-delay: 1060ms;
+}
+
+@keyframes blip53 {
+  100% {
+    height: 94px;
+    transform: rotateX(95.4deg) rotateY(106deg) rotateZ(47.7deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(54) {
+  height: 108px;
+  left: 540px;
+  animation-name: blip54;
+  animation-delay: 1080ms;
+}
+
+@keyframes blip54 {
+  100% {
+    height: 92px;
+    transform: rotateX(97.2deg) rotateY(108deg) rotateZ(48.6deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(55) {
+  height: 110px;
+  left: 550px;
+  animation-name: blip55;
+  animation-delay: 1100ms;
+}
+
+@keyframes blip55 {
+  100% {
+    height: 90px;
+    transform: rotateX(99deg) rotateY(110deg) rotateZ(49.5deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(56) {
+  height: 112px;
+  left: 560px;
+  animation-name: blip56;
+  animation-delay: 1120ms;
+}
+
+@keyframes blip56 {
+  100% {
+    height: 88px;
+    transform: rotateX(100.8deg) rotateY(112deg) rotateZ(50.4deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(57) {
+  height: 114px;
+  left: 570px;
+  animation-name: blip57;
+  animation-delay: 1140ms;
+}
+
+@keyframes blip57 {
+  100% {
+    height: 86px;
+    transform: rotateX(102.6deg) rotateY(114deg) rotateZ(51.3deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(58) {
+  height: 116px;
+  left: 580px;
+  animation-name: blip58;
+  animation-delay: 1160ms;
+}
+
+@keyframes blip58 {
+  100% {
+    height: 84px;
+    transform: rotateX(104.4deg) rotateY(116deg) rotateZ(52.2deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(59) {
+  height: 118px;
+  left: 590px;
+  animation-name: blip59;
+  animation-delay: 1180ms;
+}
+
+@keyframes blip59 {
+  100% {
+    height: 82px;
+    transform: rotateX(106.2deg) rotateY(118deg) rotateZ(53.1deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(60) {
+  height: 120px;
+  left: 600px;
+  animation-name: blip60;
+  animation-delay: 1200ms;
+}
+
+@keyframes blip60 {
+  100% {
+    height: 80px;
+    transform: rotateX(108deg) rotateY(120deg) rotateZ(54deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(61) {
+  height: 122px;
+  left: 610px;
+  animation-name: blip61;
+  animation-delay: 1220ms;
+}
+
+@keyframes blip61 {
+  100% {
+    height: 78px;
+    transform: rotateX(109.8deg) rotateY(122deg) rotateZ(54.9deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(62) {
+  height: 124px;
+  left: 620px;
+  animation-name: blip62;
+  animation-delay: 1240ms;
+}
+
+@keyframes blip62 {
+  100% {
+    height: 76px;
+    transform: rotateX(111.6deg) rotateY(124deg) rotateZ(55.8deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(63) {
+  height: 126px;
+  left: 630px;
+  animation-name: blip63;
+  animation-delay: 1260ms;
+}
+
+@keyframes blip63 {
+  100% {
+    height: 74px;
+    transform: rotateX(113.4deg) rotateY(126deg) rotateZ(56.7deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(64) {
+  height: 128px;
+  left: 640px;
+  animation-name: blip64;
+  animation-delay: 1280ms;
+}
+
+@keyframes blip64 {
+  100% {
+    height: 72px;
+    transform: rotateX(115.2deg) rotateY(128deg) rotateZ(57.6deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(65) {
+  height: 130px;
+  left: 650px;
+  animation-name: blip65;
+  animation-delay: 1300ms;
+}
+
+@keyframes blip65 {
+  100% {
+    height: 70px;
+    transform: rotateX(117deg) rotateY(130deg) rotateZ(58.5deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(66) {
+  height: 132px;
+  left: 660px;
+  animation-name: blip66;
+  animation-delay: 1320ms;
+}
+
+@keyframes blip66 {
+  100% {
+    height: 68px;
+    transform: rotateX(118.8deg) rotateY(132deg) rotateZ(59.4deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(67) {
+  height: 134px;
+  left: 670px;
+  animation-name: blip67;
+  animation-delay: 1340ms;
+}
+
+@keyframes blip67 {
+  100% {
+    height: 66px;
+    transform: rotateX(120.6deg) rotateY(134deg) rotateZ(60.3deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(68) {
+  height: 136px;
+  left: 680px;
+  animation-name: blip68;
+  animation-delay: 1360ms;
+}
+
+@keyframes blip68 {
+  100% {
+    height: 64px;
+    transform: rotateX(122.4deg) rotateY(136deg) rotateZ(61.2deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(69) {
+  height: 138px;
+  left: 690px;
+  animation-name: blip69;
+  animation-delay: 1380ms;
+}
+
+@keyframes blip69 {
+  100% {
+    height: 62px;
+    transform: rotateX(124.2deg) rotateY(138deg) rotateZ(62.1deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(70) {
+  height: 140px;
+  left: 700px;
+  animation-name: blip70;
+  animation-delay: 1400ms;
+}
+
+@keyframes blip70 {
+  100% {
+    height: 60px;
+    transform: rotateX(126deg) rotateY(140deg) rotateZ(63deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(71) {
+  height: 142px;
+  left: 710px;
+  animation-name: blip71;
+  animation-delay: 1420ms;
+}
+
+@keyframes blip71 {
+  100% {
+    height: 58px;
+    transform: rotateX(127.8deg) rotateY(142deg) rotateZ(63.9deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(72) {
+  height: 144px;
+  left: 720px;
+  animation-name: blip72;
+  animation-delay: 1440ms;
+}
+
+@keyframes blip72 {
+  100% {
+    height: 56px;
+    transform: rotateX(129.6deg) rotateY(144deg) rotateZ(64.8deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(73) {
+  height: 146px;
+  left: 730px;
+  animation-name: blip73;
+  animation-delay: 1460ms;
+}
+
+@keyframes blip73 {
+  100% {
+    height: 54px;
+    transform: rotateX(131.4deg) rotateY(146deg) rotateZ(65.7deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(74) {
+  height: 148px;
+  left: 740px;
+  animation-name: blip74;
+  animation-delay: 1480ms;
+}
+
+@keyframes blip74 {
+  100% {
+    height: 52px;
+    transform: rotateX(133.2deg) rotateY(148deg) rotateZ(66.6deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(75) {
+  height: 150px;
+  left: 750px;
+  animation-name: blip75;
+  animation-delay: 1500ms;
+}
+
+@keyframes blip75 {
+  100% {
+    height: 50px;
+    transform: rotateX(135deg) rotateY(150deg) rotateZ(67.5deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(76) {
+  height: 152px;
+  left: 760px;
+  animation-name: blip76;
+  animation-delay: 1520ms;
+}
+
+@keyframes blip76 {
+  100% {
+    height: 48px;
+    transform: rotateX(136.8deg) rotateY(152deg) rotateZ(68.4deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(77) {
+  height: 154px;
+  left: 770px;
+  animation-name: blip77;
+  animation-delay: 1540ms;
+}
+
+@keyframes blip77 {
+  100% {
+    height: 46px;
+    transform: rotateX(138.6deg) rotateY(154deg) rotateZ(69.3deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(78) {
+  height: 156px;
+  left: 780px;
+  animation-name: blip78;
+  animation-delay: 1560ms;
+}
+
+@keyframes blip78 {
+  100% {
+    height: 44px;
+    transform: rotateX(140.4deg) rotateY(156deg) rotateZ(70.2deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(79) {
+  height: 158px;
+  left: 790px;
+  animation-name: blip79;
+  animation-delay: 1580ms;
+}
+
+@keyframes blip79 {
+  100% {
+    height: 42px;
+    transform: rotateX(142.2deg) rotateY(158deg) rotateZ(71.1deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(80) {
+  height: 160px;
+  left: 800px;
+  animation-name: blip80;
+  animation-delay: 1600ms;
+}
+
+@keyframes blip80 {
+  100% {
+    height: 40px;
+    transform: rotateX(144deg) rotateY(160deg) rotateZ(72deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(81) {
+  height: 162px;
+  left: 810px;
+  animation-name: blip81;
+  animation-delay: 1620ms;
+}
+
+@keyframes blip81 {
+  100% {
+    height: 38px;
+    transform: rotateX(145.8deg) rotateY(162deg) rotateZ(72.9deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(82) {
+  height: 164px;
+  left: 820px;
+  animation-name: blip82;
+  animation-delay: 1640ms;
+}
+
+@keyframes blip82 {
+  100% {
+    height: 36px;
+    transform: rotateX(147.6deg) rotateY(164deg) rotateZ(73.8deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(83) {
+  height: 166px;
+  left: 830px;
+  animation-name: blip83;
+  animation-delay: 1660ms;
+}
+
+@keyframes blip83 {
+  100% {
+    height: 34px;
+    transform: rotateX(149.4deg) rotateY(166deg) rotateZ(74.7deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(84) {
+  height: 168px;
+  left: 840px;
+  animation-name: blip84;
+  animation-delay: 1680ms;
+}
+
+@keyframes blip84 {
+  100% {
+    height: 32px;
+    transform: rotateX(151.2deg) rotateY(168deg) rotateZ(75.6deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(85) {
+  height: 170px;
+  left: 850px;
+  animation-name: blip85;
+  animation-delay: 1700ms;
+}
+
+@keyframes blip85 {
+  100% {
+    height: 30px;
+    transform: rotateX(153deg) rotateY(170deg) rotateZ(76.5deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(86) {
+  height: 172px;
+  left: 860px;
+  animation-name: blip86;
+  animation-delay: 1720ms;
+}
+
+@keyframes blip86 {
+  100% {
+    height: 28px;
+    transform: rotateX(154.8deg) rotateY(172deg) rotateZ(77.4deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(87) {
+  height: 174px;
+  left: 870px;
+  animation-name: blip87;
+  animation-delay: 1740ms;
+}
+
+@keyframes blip87 {
+  100% {
+    height: 26px;
+    transform: rotateX(156.6deg) rotateY(174deg) rotateZ(78.3deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(88) {
+  height: 176px;
+  left: 880px;
+  animation-name: blip88;
+  animation-delay: 1760ms;
+}
+
+@keyframes blip88 {
+  100% {
+    height: 24px;
+    transform: rotateX(158.4deg) rotateY(176deg) rotateZ(79.2deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(89) {
+  height: 178px;
+  left: 890px;
+  animation-name: blip89;
+  animation-delay: 1780ms;
+}
+
+@keyframes blip89 {
+  100% {
+    height: 22px;
+    transform: rotateX(160.2deg) rotateY(178deg) rotateZ(80.1deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(90) {
+  height: 180px;
+  left: 900px;
+  animation-name: blip90;
+  animation-delay: 1800ms;
+}
+
+@keyframes blip90 {
+  100% {
+    height: 20px;
+    transform: rotateX(162deg) rotateY(180deg) rotateZ(81deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(91) {
+  height: 182px;
+  left: 910px;
+  animation-name: blip91;
+  animation-delay: 1820ms;
+}
+
+@keyframes blip91 {
+  100% {
+    height: 18px;
+    transform: rotateX(163.8deg) rotateY(182deg) rotateZ(81.9deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(92) {
+  height: 184px;
+  left: 920px;
+  animation-name: blip92;
+  animation-delay: 1840ms;
+}
+
+@keyframes blip92 {
+  100% {
+    height: 16px;
+    transform: rotateX(165.6deg) rotateY(184deg) rotateZ(82.8deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(93) {
+  height: 186px;
+  left: 930px;
+  animation-name: blip93;
+  animation-delay: 1860ms;
+}
+
+@keyframes blip93 {
+  100% {
+    height: 14px;
+    transform: rotateX(167.4deg) rotateY(186deg) rotateZ(83.7deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(94) {
+  height: 188px;
+  left: 940px;
+  animation-name: blip94;
+  animation-delay: 1880ms;
+}
+
+@keyframes blip94 {
+  100% {
+    height: 12px;
+    transform: rotateX(169.2deg) rotateY(188deg) rotateZ(84.6deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(95) {
+  height: 190px;
+  left: 950px;
+  animation-name: blip95;
+  animation-delay: 1900ms;
+}
+
+@keyframes blip95 {
+  100% {
+    height: 10px;
+    transform: rotateX(171deg) rotateY(190deg) rotateZ(85.5deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(96) {
+  height: 192px;
+  left: 960px;
+  animation-name: blip96;
+  animation-delay: 1920ms;
+}
+
+@keyframes blip96 {
+  100% {
+    height: 8px;
+    transform: rotateX(172.8deg) rotateY(192deg) rotateZ(86.4deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(97) {
+  height: 194px;
+  left: 970px;
+  animation-name: blip97;
+  animation-delay: 1940ms;
+}
+
+@keyframes blip97 {
+  100% {
+    height: 6px;
+    transform: rotateX(174.6deg) rotateY(194deg) rotateZ(87.3deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(98) {
+  height: 196px;
+  left: 980px;
+  animation-name: blip98;
+  animation-delay: 1960ms;
+}
+
+@keyframes blip98 {
+  100% {
+    height: 4px;
+    transform: rotateX(176.4deg) rotateY(196deg) rotateZ(88.2deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(99) {
+  height: 198px;
+  left: 990px;
+  animation-name: blip99;
+  animation-delay: 1980ms;
+}
+
+@keyframes blip99 {
+  100% {
+    height: 2px;
+    transform: rotateX(178.2deg) rotateY(198deg) rotateZ(89.1deg);
+    background-color: #FFDC00;
+  }
+}
+.blip:nth-child(100) {
+  height: 200px;
+  left: 1000px;
+  animation-name: blip100;
+  animation-delay: 2000ms;
+}
+
+@keyframes blip100 {
+  100% {
+    height: 0px;
+    transform: rotateX(180deg) rotateY(200deg) rotateZ(90deg);
+    background-color: #FFDC00;
+  }
+}
