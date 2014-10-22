@@ -14,12 +14,12 @@ body {
 
 }
 
-body2 {
-  background-color: cornflowerblue;
+p {
+  font-size: 16px;
+  color: thistle;
 }
-
 a {
-	color: violet;
+	color: darkorchid;
 }
 
 /* Give the <h1> element a SIZE and COLOR */
@@ -51,21 +51,19 @@ p.blah {
   border: yellow;
 }
 
-h4 {
-	color: grey;
-	font-seize: 18px;
-
-}
-
 .breaker {
-  color: orange;
+  color: teal;
   text-align: center;
-  font-size: 26px;
+  font-size: 27px;
+  font-family: garamond;
 
 }
 
 h3 {
-  font-size: 10px;
+  font-size: 22px;
+  text-align: center;
+  color: lightcyan;
+  background-color: teal;
 }
 
 h3.special {
@@ -76,7 +74,18 @@ h3.special {
   margin: 20px;
   padding: 20px;
 }
+h4 {
+  color: grey;
+  font-seize: 18px;
 
+}
+
+li {
+  color: slateblue;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
 /* Give the paragraph with the id 'whatever' a background color */
 
 #whatever {
@@ -92,12 +101,6 @@ h3.special {
   padding: 30px;
   font-size: 50px;
   font-family: garamond;
-}
-
-li {
-  color: navy;
-  font-family: sans-serif;
-  font-weight: bold;
 }
 
 .color-block1 {
@@ -158,6 +161,6 @@ div .color-block6:nth-of-type(2){
 }
 
 a:hover {
- font-size: 150%;
+ color: blueviolet; 
 }
 
